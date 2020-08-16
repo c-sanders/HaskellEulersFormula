@@ -15,8 +15,8 @@ called;
 This file contains Haskell source code which is used to test the module.
 
 
-Compiling the Haskell module.
------------------------------
+&bull; Compiling the Haskell module.
+------------------------------
 
 This section assumes that the Glasgow Haskell Compiler (GHC) will be used to compile and link the
 Haskell source code.
