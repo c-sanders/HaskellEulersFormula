@@ -58,6 +58,8 @@ eulersFormula_imag    theta =
 eulersFormula :: Float -> Complex Double
 eulersFormula    theta =
 
+    -- Construct the output value for this function.
+
     real :+ imag
 
     where
