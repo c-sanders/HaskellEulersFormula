@@ -6,6 +6,10 @@ Description.
 
 This package implements a Haskell module which in turn implements Eulers's formula.
 
+
+Source code content.
+--------------------
+
 The file which implements this module is a Haskell source code (.hs) file which is called;
 
 >  ./src/EulersFormula.hs
