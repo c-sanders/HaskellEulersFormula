@@ -52,7 +52,8 @@ eulersFormula_imag    theta =
         imag = sin (float2Double theta)
 
 
--- Note the type signature for the output of this function, i.e. Complex Double.
+-- Note that the type signature for the output of this function is Complex Double, and not just
+-- Complex.
 
 eulersFormula :: Float -> Complex Double
 eulersFormula    theta =
