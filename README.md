@@ -1,6 +1,9 @@
 Haskell module which implements Euler's Formula.
 ================================================
 
+Description.
+------------
+
 This package implements a Haskell module which in turn implements Eulers's formula.
 
 The file which implements this module is a Haskell source code (.hs) file which is called;
@@ -15,22 +18,22 @@ called;
 This file contains Haskell source code which is used to test the module.
 
 
-&bull; Compiling the source code.
----------------------------------
+Compiling the source code.
+--------------------------
 
 This section assumes that the Glasgow Haskell Compiler (GHC) will be used to compile and link the
 Haskell source code.
 
-&bull; Compiling the module.
-----------------------------
+Compiling the module.
+---------------------
 
 To compile just the source code which implements the Haskell module, invoke the following command
 from the command line;
 
 >  ghc -i ./src/EulersFormula.hs
 
-&bull; Compiling the test program.
-----------------------------------
+Compiling the test program.
+---------------------------
 
 To compile the test program which can be used to test the module, invoke the following command from
 the command line;
