@@ -13,3 +13,15 @@ called;
 >  ./src/testEulersFormula.hs
 
 This file contains Haskell source code which is used to test the module.
+
+
+Compiling the Haskell module.
+-----------------------------
+
+This section assumes that the Glasgow Haskell Compiler (GHC) will be used to compile and link the
+Haskell source code.
+
+To compile just the source code which implements the Haskell module, invoke the following command
+from the command line;
+
+>  ghc -i ./src/EulersFormula.hs
