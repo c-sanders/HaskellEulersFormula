@@ -25,8 +25,8 @@ This file contains Haskell source code which is used to test the module.
 Compiling the source code.
 --------------------------
 
-This section assumes that the Glasgow Haskell Compiler (GHC) will be used to compile and link the
-Haskell source code.
+This following sections assume that the Glasgow Haskell Compiler (GHC) will be used to compile and
+link any Haskell source code.
 
 Compiling the module.
 ---------------------
