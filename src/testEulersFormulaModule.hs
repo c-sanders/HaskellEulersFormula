@@ -41,12 +41,12 @@ main = do
         result_a = eulersFormula theta_a
         result_b = eulersFormula theta_b
 
-    putStrLn("Result of Euler's formula when theta = " ++ show theta_a)
+    putStrLn("Value of Euler's formula when theta = " ++ show theta_a)
     putStrLn("")
     putStrLn("  " ++ show result_a)
     putStrLn("")
 
-    putStrLn("Result of Euler's formula when theta = " ++ show theta_b)
+    putStrLn("Value of Euler's formula when theta = " ++ show theta_b)
     putStrLn("")
     putStrLn("  " ++ show result_b)
     putStrLn("")

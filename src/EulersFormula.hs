@@ -10,7 +10,7 @@
 module
 EulersFormula
 (
- -- Functions to import from the EulersFormula module.
+ -- Functions that should be exported from this module.
  eulersFormula_real,
  eulersFormula_imag,
  eulersFormula
@@ -33,6 +33,9 @@ eulersFormula_real    theta =
 
     where
 
+        -- Parentheses need to surround the following invocation of float2Double, otherwise the
+        -- compiler will complain about it.
+
         real = cos (float2Double theta)
 
 
@@ -43,8 +46,13 @@ eulersFormula_imag    theta =
 
     where
 
+        -- Parentheses need to surround the following invocation of float2Double, otherwise the
+        -- compiler will complain about it.
+
         imag = sin (float2Double theta)
 
+
+-- Note the type signature for the output of this function, i.e. Complex Double.
 
 eulersFormula :: Float -> Complex Double
 eulersFormula    theta =
