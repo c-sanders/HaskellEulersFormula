@@ -4,6 +4,20 @@
  --
  -- Filename : src/EulersFormula.hs
  --
+ -- ------------------------------------------------------------------------------------------------
+ --
+ -- This file implements a Haskell module which is called;
+ --
+ --   EulersFormula
+ --
+ -- The GHC (Glasgow Haskell Compiler) can be used to compile this file with a command which is
+ -- similar to the following;
+ --
+ --   > ghc -i ./src/testEulersFormulaModule.hs
+ --
+ -- Note that this command uses the -i option to specify the name of the file which is to be
+ -- compiled.
+ --
  -- ================================================================================================
  --}
 
